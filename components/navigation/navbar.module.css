@@ -1,0 +1,26 @@
+.nav {
+  background-color: rgb(250, 250, 250);
+  padding: 15px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  display: flex;
+}
+
+.logoContainer p {
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.navMenu {
+  list-style-type: none;
+  display: flex;
+}
+
+.navMenu li a {
+  padding: 5px;
+}
