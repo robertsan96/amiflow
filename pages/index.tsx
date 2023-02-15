@@ -12,7 +12,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <Image src={"logo.svg"} width={25} height={25} alt="Logo" />
         <p>test</p>
+        <div className="">
+          <p>da</p>
+        </div>
       </main>
     </>
   );
