@@ -1,21 +1,22 @@
 import styles from "./navbar.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function NavBar() {
   return (
     <>
       <nav className={styles.nav}>
-        <a href="#" className={styles.logoContainer}>
+        <Link href="/" className={styles.logoContainer}>
           <Image src={"/logo.svg"} width={25} height={25} alt="Logo" />
           <p>amiflow</p>
-        </a>
+        </Link>
 
         <ul className={styles.navMenu}>
           <li>
-            <a href="#">Connections</a>
+            <Link href="#">Connections</Link>
           </li>
           <li>
-            <a href="#">Settings</a>
+            <Link href="#">Settings</Link>
           </li>
         </ul>
       </nav>
